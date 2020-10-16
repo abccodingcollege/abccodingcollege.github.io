@@ -1,153 +1,157 @@
 /* Write some CSS below */
 
 body {
-	margin: 0px
+  margin: 0px
 }
-h1	{
-	color: white;
+h1  {
+  color: white;
 }
 
 .banner{
-	background-image: url(images/background.jpg);
-	background-position: center;
-	background-size: cover;
-	color: white;
-	text-align: center;
-	padding: 60px 100px 100px 100px;
+  background-image: url(images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 60px 100px 100px 100px;
 }
 
 
 .banner h1{
-	font-size: 50px
+  font-size: 50px
 }
 
 .banner p{
-	margin: 30px 0px 30px 0px;
-	font-size: 25px;
+  margin: 30px 0px 30px 0px;
+  font-size: 25px;
 }
 
 
 .btn-blue {
-	background-color: #0F4FBE;
-	color: white;
-	font-weight: bolder;
-	text-decoration: none;
-	padding: 10px 60px;
-	border-radius: 2px;
+  background-color: #0F4FBE;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 10px 60px;
+  border-radius: 2px;
 }
 
 
 
 .btn-blue:hover {
-	background-color: #0D1EC6;
-	color: yellow;
-	font-weight: bolder;
-	text-decoration: none;
-	padding: 12px 65px;
+  background-color: #0D1EC6;
+  color: yellow;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 12px 65px;
 }
 
 /*------------------------------------------------------*/
 
 
 .container{
-	margin: 40px 250px 40px 200px;
+  margin: 40px 250px 40px 200px;
 }
 
 
 .cards{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr; 
-	grid-gap: 25px;
-	margin: 30px 0px 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-gap: 25px;
+  margin: 30px 0px 70px;
 }
 
 
 
 .btn-shanghai{
-	
-	background-image: url(images/shanghai.jpg);
-	background-size: cover;
-	padding: 65px 115px 65px;
-	border-radius: 2px;
+  
+  background-image: url(images/shanghai.jpg);
+  background-size: cover;
+  padding: 65px 115px 65px;
+  border-radius: 2px;
 }
 
 .btn-london{
-	
-	background-image: url(images/london.jpg);
-	background-size: cover;
-	padding: 65px 115px 65px;
-	border-radius: 2px;
+  
+  background-image: url(images/london.jpg);
+  background-size: cover;
+  padding: 65px 115px 65px;
+  border-radius: 2px;
 }
 
 
 .btn-paris{
-	
-	background-image: url(images/paris.jpg);
-	background-size: cover;
-	padding: 65px 115px 65px;
-	border-radius: 2px;
+  
+  background-image: url(images/paris.jpg);
+  background-size: cover;
+  padding: 65px 115px 65px;
+  border-radius: 2px;
 }
 
 
 .allcards{
-	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
-	padding: 100px 25px 25px 25px
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+  padding: 100px 25px 25px 25px
 }
 
 .allcards:hover{
-	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
 
 
 h3{
-	margin: 80px 0px 0px 0px;
+  margin: 80px 0px 0px 0px;
 }
 
 .container p{
-	margin: 10px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
 }
 
 
 .youtubevid{
-	margin: 0px 400px 0px 400px;
+  /*margin: 0px 400px 0px 400px;*/
+  display: flex;
+flex-direction: column;
+align-items: center;
+
 }
 
 
 /*---------------------------------------------------------*/
 .footer{
-	background-color: rgb(100,100,100,100);
-	padding: 20px
+  background-color: rgb(100,100,100,100);
+  padding: 20px
 }
 
 
 /*all media compatible*/
 /* Container media queries */
 @media (min-width: 500px) {
-  .container {
-    width: 400px;
+  .container{
+    margin: 40px 0px 40px 0px;
   }
 }
 
 
 @media (min-width: 800px) {
-  .container {
-    width: 600px;
+  .container{
+    margin: 40px 0px 40px 0px;
   }
 }
 
 @media (min-width: 1000px) {
-  .container {
-    width: 800px;
+  .container{
+    margin: 40px 0px 40px 0px;
   }
 }
 
 /* Cards media queries */
 @media (max-width: 800px) {
-  .cards {
+  .cards{
     grid-template-columns: 1fr;
   }
   
-  .allcards {
+  .allcards{
     width: auto;
   }
 }
