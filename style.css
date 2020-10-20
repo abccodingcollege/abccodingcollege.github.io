@@ -58,7 +58,7 @@ h1  {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; 
   grid-gap: 25px;
-  margin: 30px 0px 70px;
+  margin: 20px 0px 70px;
 }
 
 
@@ -90,12 +90,12 @@ h1  {
 
 
 .allcards{
-  box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
-  padding: 100px 25px 25px 25px
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.18);
+  padding: 100px 25px 25px 45px
 }
 
 .allcards:hover{
-  box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+  box-shadow: 1px 1px 10px rgba(13,30,198,0.5);
 }
 
 
@@ -126,27 +126,83 @@ align-items: center;
 
 /* Cards media queries */
 @media (max-width: 1200px) {
-  .cards{
-    grid-template-columns: 1fr;
-  }
   
-  .allcards{
-    /*width: auto;*/
+  .banner{
+  padding: 100px 100px 100px 100px;
   }
 
+
+  .cards{
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
+  }
+  
+
   .banner h1{
-  font-size: 30px
+  font-size: 50px
   }
 
   .banner p{
-  font-size: 15px;
+  font-size: 25px;
   margin: 0px 0px 50px 0px
   }
 
+  .container h2{
+   font-size: 35px;
+   text-align: left;
+  }
 
+  .allcards h3{
+    font-size: 25px;
+      }
+
+   .allcards p{
+    font-size: 15px;
+  }
 
  .container{
   text-align: center;
   }
+
+
+  .btn-shanghai{
+  
+  background-image: url(images/shanghai.jpg);
+  background-size: cover;
+  padding: 165px 215px 165px;
+  border-radius: 2px;
+  }
+
+  .btn-london{
+  
+  background-image: url(images/london.jpg);
+  background-size: cover;
+  padding: 165px 215px 165px;
+  border-radius: 2px;
+  }
+
+
+  .btn-paris{
+  
+  background-image: url(images/paris.jpg);
+  background-size: cover;
+  padding: 165px 215px 165px;
+  border-radius: 2px;
+  }
+
+  .allcards{
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+  padding: 200px 5px 30px 0px
+  }
+
+  h3{
+  margin: 200px 0px 0px 0px;
+  }
+
+.container p{
+  margin: 10px 0px 0px 0px;
+  }
+
+
 
 }
