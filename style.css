@@ -8,12 +8,12 @@ h1  {
 }
 
 .banner{
-  background-image: url(images/background.jpg);
+  background-image: url(images/banner3.jpg);
   background-position: center;
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 60px 100px 100px 100px;
+  padding: 20px 100px 100px 100px;
 }
 
 
@@ -28,7 +28,8 @@ h1  {
 
 
 .btn-blue {
-  background-color: #0F4FBE;
+  background-color: #F5AA29;
+  outline: solid;
   color: white;
   font-weight: bolder;
   text-decoration: none;
@@ -39,7 +40,7 @@ h1  {
 
 
 .btn-blue:hover {
-  background-color: #0D1EC6;
+  background-color: #FF8564;
   color: yellow;
   font-weight: bolder;
   text-decoration: none;
@@ -65,7 +66,7 @@ h1  {
 
 .btn-shanghai{
   
-  background-image: url(images/shanghai.jpg);
+  background-image: url(images/dish1.jpg);
   background-size: cover;
   padding: 65px 115px 65px;
   border-radius: 2px;
@@ -73,7 +74,7 @@ h1  {
 
 .btn-london{
   
-  background-image: url(images/london.jpg);
+  background-image: url(images/dish2.jpg);
   background-size: cover;
   padding: 65px 115px 65px;
   border-radius: 2px;
@@ -82,7 +83,7 @@ h1  {
 
 .btn-paris{
   
-  background-image: url(images/paris.jpg);
+  background-image: url(images/dish3.jpg);
   background-size: cover;
   padding: 65px 115px 65px;
   border-radius: 2px;
@@ -91,11 +92,11 @@ h1  {
 
 .allcards{
   box-shadow: 1px 1px 10px rgba(0,0,0,0.18);
-  padding: 100px 25px 25px 45px
+  padding: 100px 35px 35px 45px
 }
 
 .allcards:hover{
-  box-shadow: 1px 1px 10px rgba(13,30,198,0.5);
+  box-shadow: 1px 1px 10px rgba(245,170,41,0.5);
 }
 
 
